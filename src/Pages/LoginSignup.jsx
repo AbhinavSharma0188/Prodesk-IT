@@ -28,7 +28,7 @@ const LoginSignup = () => {
       if (isLogin) {
         // login request
         const res = await axios.post(
-          `${process.env.REACT_APP_BACKEND_URL}/api/auth/login`,
+          
           { email: formData.email, password: formData.password },
           { withCredentials: true }
         );
@@ -37,7 +37,7 @@ const LoginSignup = () => {
       } else {
         // signup request
         const res = await axios.post(
-          `${process.env.REACT_APP_BACKEND_URL}/api/auth/register`,
+          
           { name: formData.name, email: formData.email, password: formData.password },
           { withCredentials: true }
         );

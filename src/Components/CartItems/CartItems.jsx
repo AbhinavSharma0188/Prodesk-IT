@@ -1,4 +1,4 @@
-import { motion } from "framer-motion";
+
 import { useContext } from "react";
 import remove_icon from "../../assets/remove.webp";
 import { ShopContext } from "../../Context/ShopContext";
